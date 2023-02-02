@@ -46,6 +46,9 @@ nav {
 header nav ul {
 	list-style: none;
 	float: right;
+	background-color: #306A82;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 nav ul li {
 	float: left;
