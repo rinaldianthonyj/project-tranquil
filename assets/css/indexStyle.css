@@ -2,7 +2,8 @@
 /* CSS Document */
 body{
 	background-color: #B3B3B3;
-}
+	height: auto;
+	width: auto;
 
 .crest{
 	width: 70px;
