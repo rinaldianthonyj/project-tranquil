@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #B3B3B3;
+}
+
+.crest{
+	width: 70px;
+	height: 70px;
+	display: block;
+}
+
+.navbar{
+	width: 100%;
+	height: 100px;
+	overflow: auto;
+	background-color: #52bad5;
+}
+
+.navbar a {
+  float: left;
+  
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+}
+
+.navbar ul li a {
+	display: table-cell;
+	line-height: 3.5em;
+	padding: 1em 3em;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.navbar ul li:first-child {
+  margin-right: auto;
+}
+
+.navbar ul li:hover a {
+	color: black;
+}
+
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+/* Hero Section */
+.hero {
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.light {
+	font-weight: bold;
+	color: #717070;
+}
+
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
