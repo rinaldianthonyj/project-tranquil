@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en-US"><head>
+<html lang="en-US">
+	<head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,13 +19,27 @@
     <![endif]-->
 </head>
 <body>
-	<div class = "navbar">
-		<ul>
-			<li><a href="postmission.html">MISSION REWARDS</a></li>
-			<li><a href="market.html">MARKET</a></li>
-			<li><a href="#index.html">CHARACTER SHEETS (Under development)</a></li>
-		</ul>
-	</div>
+	<!-- Full navbar for full size screens -->
+	<nav class = "navbar">
+			<ul>
+				<li><a href="postmission.html">MISSION REWARDS</a></li>
+				<li><a href="market.html">MARKET</a></li>
+				<li><a href="#index.html">CHARACTER SHEETS (Under development)</a></li>
+			</ul>
+	</nav>
+	
+	<!-- Hamburger menu for small pages -->
+	<input type="checkbox" id="hamburger-input" class="burger-shower" />
+	<label id = "hamburger-menu">
+		<nav id = "sidebar-menu" class = "navbar">
+			<ul>
+				<li><a href="postmission.html">MISSION REWARDS</a></li>
+				<li><a href="market.html">MARKET</a></li>
+				<li><a href="#index.html">CHARACTER SHEETS (Under development)</a></li>
+			</ul>
+		</nav>
+	</label>
+	<div class="overlay"></div>
 
   <!-- Hero Section -->
   <section class="hero" id="hero">
