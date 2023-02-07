@@ -50,13 +50,14 @@ body{
 }
 
 #main-menu a {
-  color: #B9FAF8;
+  color: #FFFFFF;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
 #main-menu a:hover {
   text-decoration: underline;
+	color: black;
 }
 
 #hamburger-input{
@@ -117,7 +118,8 @@ body{
 }
 
 #hamburger-menu a:hover {
-  text-decoration: underline;
+ 	text-decoration: underline;
+	color: black;
 }
 
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {
