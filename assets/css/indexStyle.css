@@ -3,8 +3,9 @@
 
 body{
 	/* grey option background-image: linear-gradient(#bdc3c7, #2c3e50);*/
-    /*Saturn option */ background-image: linear-gradient(#ffd89b,#19547b);
-	
+    /*Saturn option */ 
+	background-image: linear-gradient(#ffd89b,#19547b);
+	background-size: auto;
 }
 
 /* From Alvarotrigo */
@@ -26,7 +27,7 @@ body{
   display: block;
   height: 100px;
   width: 100%;
-  background: #3D0E61;
+  background: #606060;
   margin: 0px;  
   z-index: 9;
 }
@@ -74,11 +75,11 @@ body{
     margin: 0px;
     background: linear-gradient(
       to bottom, 
-      #3D0E61, #3D0E61 20%, 
-      white 20%, white 40%, 
-      #3D0E61 40%, #3D0E61 60%, 
-      white 60%, white 80%, 
-      #3D0E61 80%, #3D0E61 100%
+      #17CCFF, #17CCFF 20%, 
+      transparent 20%, transparent 40%, 
+      #17CCFF 40%, #17CCFF 60%, 
+      transparent 60%, transparent 80%, 
+      #17CCFF 80%, #17CCFF 100%
     );
 }
 
@@ -89,7 +90,7 @@ body{
     left: -250px;
     width: 200px;
     height: 100%;
-    background-color: #3D0E61;
+    background-color: #17CCFF;
     transition: 0.3s;
     padding: 0px 10px;
     box-sizing: border-box;
