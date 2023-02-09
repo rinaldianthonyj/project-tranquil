@@ -76,11 +76,11 @@ body{
     margin: 0px;
     background: linear-gradient(
       to bottom, 
-      #17CCFF, #17CCFF 20%, 
+      #0B7CC2, #17CCFF 20%, 
       transparent 20%, transparent 40%, 
-      #17CCFF 40%, #17CCFF 60%, 
+      #17CCFF 40%, #0B7CC2 60%, 
       transparent 60%, transparent 80%, 
-      #17CCFF 80%, #17CCFF 100%
+      #17CCFF 80%, #0B7CC2 100%
     );
 }
 
