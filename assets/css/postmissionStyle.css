@@ -16,6 +16,10 @@ body{
 	background-color: darkgrey;
 }
 
+.column iframe{
+	width: 85%;
+}
+
 /* Hamburger menu */
 /* From Alvarotrigo */
 .overlay{
