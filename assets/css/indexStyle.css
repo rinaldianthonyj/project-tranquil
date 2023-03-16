@@ -24,7 +24,7 @@ body{
 }
 
 #main-menu {
-  display: block;
+  display: none;
   height: 100px;
   width: 100%;
   background: #606060;
