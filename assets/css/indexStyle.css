@@ -6,6 +6,7 @@ body{
     /*Saturn option */ 
 	background-image: linear-gradient(#ffd89b,#19547b);
 	background-size: auto;
+	background-attachment: fixed;
 }
 
 /* From Alvarotrigo */
