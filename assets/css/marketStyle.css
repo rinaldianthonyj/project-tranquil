@@ -5,12 +5,16 @@ body{
 	background-size: 50%;
 }
 
-h1{
-	color: black;
-	background-color: saddlebrown;
-	width: 70%;
+button {
+	color: white;
+	background-color: darkblue;
+	width: 50%;
+	display: block;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	padding: 0 auto;
+	border-radius: 12px;
+	border: none;
 }
 
 header {
