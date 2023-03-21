@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	/* grey option background-image: linear-gradient(#bdc3c7, #2c3e50);*/
+    /*Saturn option */ 
+	background-image: linear-gradient(#ffd89b,#19547b);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.title{
+			text-align: center;
+			padding-top: 35px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-weight: 100;
+		}
+
+h2{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-weight: 100;
+}
+
+.history{
+	font-size: 20px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-justify: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+.bottomCrest{
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
